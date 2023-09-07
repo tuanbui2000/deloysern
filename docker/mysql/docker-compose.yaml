@@ -1,0 +1,13 @@
+
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+
+    restart: always
+    environment:
+      - MYSQL_DATABASE=bookingcare
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_ROOT_HOST=localhost
+    ports:
+      - '3306:3306'

@@ -1,0 +1,30 @@
+.section-medical-facility {
+
+    .section-container {
+
+        .section-header {
+            .title-section {}
+
+            .btn-section {}
+        }
+
+
+
+        .section-body {
+
+            .section-customize {
+
+
+                .bg-image {}
+
+                .clinic-name {
+                    padding: 10px 0;
+                }
+
+                &:hover {
+                    color: #45c3d2
+                }
+            }
+        }
+    }
+}
